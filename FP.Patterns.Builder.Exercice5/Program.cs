@@ -6,7 +6,7 @@ director.Make();
 Meal meal = builder.GetMeal();
 Console.WriteLine(meal);
 
-Console.WriteLine("----------------------");ç
+Console.WriteLine("----------------------");
 
 builder = new NonVegMealBuilder();
 director.ChangeBuilder(builder);
